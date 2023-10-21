@@ -1,0 +1,22 @@
+.DS_Store
+*tfvars.json
+.vscode/*
+.idea/
+*temp.*
+
+# local .terraform direcctories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+*.terraform.lock.*
+
+# Crash log files
+crash.log
+
+# Ignore override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
